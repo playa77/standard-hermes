@@ -1,0 +1,16 @@
+name: standard-hermes
+version: 1.0.0
+description: "Standard Hermes profile with all current installed skills and the complete Superpowers plugin."
+hermes_requires: ">=0.21.5"
+author: "playa77"
+license: "MIT"
+env_requires:
+  - name: OPENROUTER_API_KEY
+    description: "Your own OpenRouter API key for the default model."
+    required: true
+distribution_owned:
+  - distribution.yaml
+  - SOUL.md
+  - config.yaml
+  - skills
+  - plugins/superpowers
